@@ -1,0 +1,63 @@
+name: arobaze
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0-128.0.dev <4.0.0'
+
+dependencies:
+  carousel_slider: ^5.0.0
+  flutter:
+    sdk: flutter
+  flutter_card_swiper: ^7.0.2
+  flutter_svg: ^2.0.10+1
+  google_fonts: ^6.2.1
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  fonts:
+    - family: Larsseit
+      fonts:
+        - asset: fonts/Larsseit/LarsseitThin.otf
+        - asset: fonts/Larsseit/LarsseitThinItalic.otf
+          style: italic
+        - asset: fonts/Larsseit/LarsseitLight.otf
+          weight: 300
+        - asset: fonts/Larsseit/LarsseitLightItalic.otf
+          weight: 300
+          style: italic
+        - asset: fonts/Larsseit/LarsseitMedium.otf
+          weight: 500
+        - asset: fonts/Larsseit/LarsseitMediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: fonts/Larsseit/LarsseitBold.otf
+          weight: 700
+        - asset: fonts/Larsseit/LarsseitBoldItalic.otf
+          weight: 700
+          style: italic
+        - asset: fonts/Larsseit/LarsseitExtraBold.otf
+          weight: 800
+        - asset: fonts/Larsseit/LarsseitExtraBoldItalic.otf
+          weight: 800
+          style: italic
+
+  uses-material-design: true
+  assets:
+    - assets/images/people/person1/
+    - assets/images/people/person2/
+    - assets/images/people/person3/
+    - assets/images/people/person4/
+    - assets/images/people/person5/
+    - assets/images/people/person6/
+    - assets/images/people/profile/
+    - assets/images/logo/
+    - assets/images/icons/
+    - assets/images/placeholders/profile/
+    - assets/images/placeholders/messages/
