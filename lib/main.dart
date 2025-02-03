@@ -2,8 +2,6 @@ import 'package:arobaze/colors.dart';
 import 'package:arobaze/screens/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,23 +31,6 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        /* textTheme: TextTheme(
-          bodySmall: GoogleFonts.cabin(
-            fontSize: 18,
-            fontWeight: FontWeight.w500,
-            color: AppColors.gray
-          ),
-          bodyMedium: GoogleFonts.cabin(
-            fontSize: 18,
-            fontWeight: FontWeight.w600,
-            color: AppColors.white
-          ),
-          bodyLarge: GoogleFonts.cabin(
-            fontSize: 45,
-            fontWeight: FontWeight.w700,
-            color: AppColors.white
-          ),
-        ) */
        textTheme: const TextTheme(
           bodySmall: TextStyle(
             fontFamily: 'Larsseit',
